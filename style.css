@@ -9,7 +9,8 @@ header {
 .avatar {
     height: 300px;
     width: 300px;
-    border-radius: 6px;
+    border-radius: 50px;
+    margin-top: 4px;
 }
 .title__main {
     font-size: 24px;
@@ -36,6 +37,7 @@ main {
 .gallery__img {
     width: 400px;
     height: 600px;
+    max-width: 600px;
 }
 
 .separator {
