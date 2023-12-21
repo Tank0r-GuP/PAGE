@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="https://placehold.co/400x400" alt="My avatar" class="avatar">
+        <h1 class="title__main">Egor Potemkin | CV Page</h1>
+        <h2 class="title__subtitle">The Slacker, Web Designer (Future)</h2>
+    </header>
+
+    <main>
+        <section class="skill">
+            <h3>Skills</h3>
+            <details>
+                <summary>Skills list:</summary>
+                <ol class="skills__ol">
+                    <li>1. Figma</li>
+                    <li>2. VS Code</li>
+                    <li>3. HTML&CSS</li>
+                    <li>4. DOOM</li>
+                </ol>
+            </details>
+        </section>
+        <article class="article">
+            <h2>Article about me</h2>
+            <p>
+                Короче история.
+                Прихожу я как-то на сеновал, а там на стоге сена Глаша разлеглася. Я говорю: "Глаш, ты чо это?", а она мне: "Давай быстрее, у нас мало времени, делов то!"
+                А я ей отвечаю: "Ты шо несешь!? Сегодня Людка приезжает, забыла что-ли?"
+                Ну и ушёл я домой водку пить. Утром просыпаюсь и вижу: Людка стоит надо мной, злыми глазами смотрит, я вокруг посмотрел, а тут - ПОЛЕ. А потом оказалось, что я дом в бильярд проиграл. Вот так мы и развелись, сынок.
+            </p>
+        </article>
+        <section class="gallery">
+            <h2>My gallery</h2>
+            <img src="https://dailynationtoday.com/wp-content/uploads/2021/12/doomthirdpersonbr-1585603379259-780x470.jpg" alt="My arts" class="gallery__img">
+            <img src="https://placehold.co/400x600" alt="My arts" class="gallery__img">
+            <img src="https://placehold.co/400x600" alt="My arts" class="gallery__img">
+        </section>
+        <hr class="separator">
+        <section class="video">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/UcT5jcSQ1bU" title="Chill Vibes 👻 Lofi Hip Hop Mix 🎵 lofi beats to chill / relax to"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+        <section class="hobbies">
+            <h3>My hobbies</h3>
+            <details>
+                <summary>Hobbies list:</summary>
+                <ul>
+                    <li>Modelling 3D Arts</li>
+                    <li>Watch Youtube</li>
+                    <li>Learn new skill</li>
+                </ul>
+            </details>
+        </section>
+        <section class="education">
+            <h3>Education</h3>
+            <table class="education__table">
+                <thead>
+                    <tr>
+                        <th>School</th>
+                        <th>Profession</th>
+                        <th>Years</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>DIT</td>
+                        <td>Tech. Programmer</td>
+                        <td>2012 - ???</td>
+                    </tr>
+                    <tr>
+                        <td>IT-Cube</td>
+                        <td>Web Design</td>
+                        <td>2023 - 2024</td>
+                    </tr>
+                    <tr>
+                        <td>IT-Cube</td>
+                        <td>VR/AR</td>
+                        <td>2022-2024</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="quote">
+            <blockquote>
+                «Ты - не ты, когда голоден». <i>©Сникерс</i> 
+            </blockquote>
+        </section>
+        <section class="interaction">
+            <form action="mailto:artyom.medin@yandex.ru" method="post" target="_blank" class="form">
+                <fieldset>
+                    <legend>Required fields</legend>
+
+                    <label for="firstNameID">First name:</label>
+                    <input type="text" name="firstName" id="firstNameID" placeholder="Type your First Name" required class="form__input">
+
+                    <label for="secondNameID">Second name:</label>
+                    <input type="text" name="secondName" id="secondNameID" placeholder="Type your Second Name" required class="form__input">
+
+                    <label for="emailID">Email:</label>
+                    <input type="email" name="email" id="emailID" placeholder="Type your mail" required class="form__input">
+                </fieldset>
+                <textarea name="questions" id="questionsID" cols="30" rows="10" placeholder="Type your questions???" class="textarea"></textarea>
+                <button type="submit" class="form__submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <address class="contracts">
+            <a href="tel:+78005553535" class="contacts__link">+79155336132</a>
+            <br>
+            <a href="mailto:artyom.medin@yandex.ru" class="contacts__link">artyom.medin@yandex.ru</a>
+        </address>
+    </footer>
+</body>
+</html>
